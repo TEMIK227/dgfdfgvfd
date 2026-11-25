@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/s_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/widget_bg">
+    <TextView android:id="@+id/s_tag" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textSize="10sp" android:textStyle="bold" android:maxLines="1" android:textColor="#D81B60" />
+    <TextView android:id="@+id/s_time" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textSize="20sp" android:textStyle="bold" android:maxLines="1" android:textColor="#4A1630" />
+    <TextView android:id="@+id/s_title" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textSize="12sp" android:textStyle="bold" android:maxLines="2" android:textColor="#4A1630" />
+    <TextView android:id="@+id/s_hw" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textSize="11sp" android:maxLines="2" android:textColor="#AD1457" />
+    <TextView android:id="@+id/s_todo" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="3dp" android:textSize="10sp" android:maxLines="2" android:textColor="#C2185B" />
+</LinearLayout>
